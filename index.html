@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pain And Gain</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Otomanopee+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url('img/gym1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: aliceblue;
+        font-family: 'Acme', sans-serif;
+        
+
+    }
+
+    header {
+        backdrop-filter: blur(100px);
+    }
+
+    .left {
+        margin: px;
+        color: aliceblue;
+        
+        display: inline-block;
+        position: absolute;
+        left: 20px;
+        height: 56px;
+
+
+        font-family: 'Otomanopee One', sans-serif;
+
+    }
+
+    .left img {
+        width: 100px;
+        filter: invert(100%);
+    }
+
+
+    .left div {
+        float: right;
+        font-size: xx-large;
+       
+        padding: 5px;
+       
+text-align: center;
+    }
+
+    .mid {
+        width: 37%;
+        color: white;
+        border: 2px solid gray;
+        margin: 12px auto;
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: -12px;
+        color: aliceblue;
+        /* border: 2px solid green; */
+        display: inline-block;
+        height: 57px !important;
+        padding: 0px;
+     
+
+
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 17px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 35px 24px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        margin: 20px 10px;
+        border: 2px solid whitesmoke;
+        background-color: black;
+        color: white;
+        padding: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 10px;
+        width: 100px;
+        text-align: center;
+        
+        font-family: 'Otomanopee One', sans-serif;
+    }
+
+    .btn:hover {
+        background-color: gray;
+
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 153px 65px;
+        padding: 55px 30px;
+        width: 33%;
+        border-radius: 17px;
+    }
+    .container h1 span{
+        background-color: yellow;
+        color: black;
+        font-size: 23px;
+
+
+    }
+    
+    .form-group input{
+        margin: 13px 145px;
+        padding: 4px 2px;
+        text-align: center;
+        width: 200px;
+        border: 2px solid grey;
+        display: block;
+        border-radius: 4px;
+        font-family: 'Otomanopee One', sans-serif;
+        align-content: center;
+
+    }
+    .form-group input:hover{
+        color: white;
+        background: none;
+      
+      
+    }
+    
+    .container h1{ text-align: center;
+
+    }
+
+    .container button{
+        display: block;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    
+</style>
+
+<body>
+    <header class="header">
+
+        <!-- left box for logo -->
+        <div class="left">
+
+            <img src="img/logo.jpg" alt="">
+            <div>Pain And Gain</div>
+
+
+
+        </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+
+            <ul class="navbar">
+                <li> <a href="#" class="active">Home</a> </li>
+                <li> <a href="#">About Us</a> </li>
+                <li> <a href="#">Fitness Calculator</a> </li>
+                <li> <a href="#">Contact Us</a> </li>
+            </ul>
+
+        </div>
+
+        <!-- right for buttons -->
+        <div class="right">
+
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+    </header>
+    <div class="container">
+     
+        <h1>Experience the Pain...Come Join Fast! <span> <strong>Limited Offer!</strong></span></h1>
+        
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+            
+        </form>
+        <button class="btn">Submit</button>
+
+    </div>
+
+</body>
+
+</html>
